@@ -6,6 +6,10 @@ import org.testng.annotations.Test;
 
 
 public class Checkout extends BaseTestSD {
+	
+												///--TEST CASE SCENARIO 6: 
+									   ///--VALIDATING INPUTS FROM CHECKOUT PAGE--///
+	
 	@Test(dataProvider = "dataset1", dataProviderClass = BaseTestSD.class)
 	public void checkout(String fname, String lname, String zipcode) {
 		

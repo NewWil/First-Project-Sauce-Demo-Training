@@ -9,9 +9,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.asserts.SoftAssert;
 
 public class BaseTestSD {
+	
 	WebDriver driver;
 	SoftAssert softAssert = new SoftAssert();
 	
+									///--LAUNCH WEBSITE ON GOOGLE CHROME--///
 	@BeforeMethod
 	public void Base(){
 		ChromeOptions options = new ChromeOptions();
@@ -25,11 +27,13 @@ public class BaseTestSD {
 		
 	}
 	
+									///--QUIT BROWSER--///
 	@AfterMethod
 	public void afterme() {
 		driver.quit();
 	}
 	
+									///--DATA SET FOR LOGIN FUNCTIONALTY TESTING--///
 	@DataProvider(name = "dataset1")
 	public Object[][] dataset(Method m){
 		
