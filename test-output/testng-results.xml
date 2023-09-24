@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="1" total="21" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-10T16:27:17 SGT" name="Default suite" finished-at="2023-08-10T16:27:23 SGT" duration-ms="6369">
+  <suite started-at="2023-09-24T22:34:02 SGT" name="Default suite" finished-at="2023-09-24T22:34:34 SGT" duration-ms="31524">
     <groups>
+      <group name="Filter">
+        <method signature="Filter.DescendingPrice()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" name="DescendingPrice" class="FunctionalTesting.Filter"/>
+        <method signature="Filter.ascendingPrice()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" name="ascendingPrice" class="FunctionalTesting.Filter"/>
+        <method signature="Filter.sortAtoZ()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" name="sortAtoZ" class="FunctionalTesting.Filter"/>
+        <method signature="Filter.sortZtoA()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" name="sortZtoA" class="FunctionalTesting.Filter"/>
+      </group> <!-- Filter -->
     </groups>
-    <test started-at="2023-08-10T16:27:17 SGT" name="Default test" finished-at="2023-08-10T16:27:23 SGT" duration-ms="6369">
-      <class name="FunctionalTesting.Login">
-        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:17 SGT" name="Base" finished-at="2023-08-10T16:27:19 SGT" duration-ms="1829" status="PASS">
+    <test started-at="2023-09-24T22:34:02 SGT" name="Default test" finished-at="2023-09-24T22:34:34 SGT" duration-ms="31524">
+      <class name="FunctionalTesting.AddToCart">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:02 SGT" name="Base" finished-at="2023-09-24T22:34:04 SGT" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Base -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:19 SGT" name="login" data-provider="dataset1" finished-at="2023-08-10T16:27:19 SGT" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:04 SGT" name="cred" finished-at="2023-09-24T22:34:04 SGT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="AddtoCart()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:04 SGT" name="AddtoCart" finished-at="2023-09-24T22:34:04 SGT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:04 SGT" name="afterme" finished-at="2023-09-24T22:34:04 SGT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:04 SGT" name="Base" finished-at="2023-09-24T22:34:05 SGT" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:05 SGT" name="cred" finished-at="2023-09-24T22:34:06 SGT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="BackHome()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:06 SGT" name="BackHome" finished-at="2023-09-24T22:34:06 SGT" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackHome -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:06 SGT" name="afterme" finished-at="2023-09-24T22:34:06 SGT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:06 SGT" name="Base" finished-at="2023-09-24T22:34:07 SGT" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:07 SGT" name="cred" finished-at="2023-09-24T22:34:07 SGT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="validateRemovedProductsFromCart()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:07 SGT" name="validateRemovedProductsFromCart" finished-at="2023-09-24T22:34:08 SGT" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRemovedProductsFromCart -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.AddToCart@2c35e847]" started-at="2023-09-24T22:34:08 SGT" name="afterme" finished-at="2023-09-24T22:34:08 SGT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+      </class> <!-- FunctionalTesting.AddToCart -->
+      <class name="FunctionalTesting.Login">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:08 SGT" name="Base" finished-at="2023-09-24T22:34:09 SGT" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:09 SGT" name="login" data-provider="dataset1" finished-at="2023-09-24T22:34:09 SGT" duration-ms="294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +83,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:19 SGT" name="afterme" finished-at="2023-08-10T16:27:19 SGT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:09 SGT" name="afterme" finished-at="2023-09-24T22:34:09 SGT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterme -->
-        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:19 SGT" name="Base" finished-at="2023-08-10T16:27:20 SGT" duration-ms="1058" status="PASS">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:09 SGT" name="Base" finished-at="2023-09-24T22:34:10 SGT" duration-ms="1174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Base -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:20 SGT" name="login" data-provider="dataset1" finished-at="2023-08-10T16:27:20 SGT" duration-ms="265" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:10 SGT" name="login" data-provider="dataset1" finished-at="2023-09-24T22:34:10 SGT" duration-ms="266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +107,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:20 SGT" name="Base" finished-at="2023-08-10T16:27:21 SGT" duration-ms="1022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Base -->
-        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:20 SGT" name="afterme" finished-at="2023-08-10T16:27:20 SGT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:10 SGT" name="afterme" finished-at="2023-09-24T22:34:10 SGT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterme -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:21 SGT" name="login" data-provider="dataset1" finished-at="2023-08-10T16:27:21 SGT" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:10 SGT" name="Base" finished-at="2023-09-24T22:34:11 SGT" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:11 SGT" name="login" data-provider="dataset1" finished-at="2023-09-24T22:34:12 SGT" duration-ms="256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +131,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:21 SGT" name="afterme" finished-at="2023-08-10T16:27:21 SGT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:12 SGT" name="afterme" finished-at="2023-09-24T22:34:12 SGT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterme -->
-        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:21 SGT" name="Base" finished-at="2023-08-10T16:27:23 SGT" duration-ms="1335" status="PASS">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:12 SGT" name="Base" finished-at="2023-09-24T22:34:13 SGT" duration-ms="1154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Base -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:23 SGT" name="login" data-provider="dataset1" finished-at="2023-08-10T16:27:23 SGT" duration-ms="272" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:13 SGT" name="login" data-provider="dataset1" finished-at="2023-09-24T22:34:13 SGT" duration-ms="283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,11 +155,342 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@3b6ddd1d]" started-at="2023-08-10T16:27:23 SGT" name="afterme" finished-at="2023-08-10T16:27:23 SGT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Login@7db12bb6]" started-at="2023-09-24T22:34:13 SGT" name="afterme" finished-at="2023-09-24T22:34:13 SGT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterme -->
       </class> <!-- FunctionalTesting.Login -->
+      <class name="FunctionalTesting.Checkout">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:13 SGT" name="Base" finished-at="2023-09-24T22:34:14 SGT" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:14 SGT" name="cred" finished-at="2023-09-24T22:34:14 SGT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="Cancel()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:14 SGT" name="Cancel" finished-at="2023-09-24T22:34:15 SGT" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cancel -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:15 SGT" name="afterme" finished-at="2023-09-24T22:34:15 SGT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:15 SGT" name="Base" finished-at="2023-09-24T22:34:16 SGT" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:16 SGT" name="cred" finished-at="2023-09-24T22:34:16 SGT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="Finish_button()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:16 SGT" name="Finish_button" finished-at="2023-09-24T22:34:16 SGT" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Finish_button -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:16 SGT" name="afterme" finished-at="2023-09-24T22:34:16 SGT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:16 SGT" name="Base" finished-at="2023-09-24T22:34:17 SGT" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:17 SGT" name="cred" finished-at="2023-09-24T22:34:18 SGT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:18 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:18 SGT" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wilbert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lacuesta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:18 SGT" name="afterme" finished-at="2023-09-24T22:34:18 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:18 SGT" name="Base" finished-at="2023-09-24T22:34:19 SGT" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:19 SGT" name="cred" finished-at="2023-09-24T22:34:19 SGT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:19 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:20 SGT" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lacuesta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:20 SGT" name="Base" finished-at="2023-09-24T22:34:21 SGT" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:20 SGT" name="afterme" finished-at="2023-09-24T22:34:20 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:21 SGT" name="cred" finished-at="2023-09-24T22:34:21 SGT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:21 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:21 SGT" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wilbert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:21 SGT" name="afterme" finished-at="2023-09-24T22:34:21 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:21 SGT" name="Base" finished-at="2023-09-24T22:34:22 SGT" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:22 SGT" name="cred" finished-at="2023-09-24T22:34:22 SGT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:22 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:23 SGT" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wilbert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lacuesta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:23 SGT" name="afterme" finished-at="2023-09-24T22:34:23 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:23 SGT" name="Base" finished-at="2023-09-24T22:34:24 SGT" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:24 SGT" name="cred" finished-at="2023-09-24T22:34:24 SGT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:24 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:24 SGT" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:24 SGT" name="Base" finished-at="2023-09-24T22:34:26 SGT" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:24 SGT" name="afterme" finished-at="2023-09-24T22:34:24 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:26 SGT" name="cred" finished-at="2023-09-24T22:34:26 SGT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:26 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:26 SGT" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lacuesta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:26 SGT" name="afterme" finished-at="2023-09-24T22:34:26 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:26 SGT" name="Base" finished-at="2023-09-24T22:34:27 SGT" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:27 SGT" name="cred" finished-at="2023-09-24T22:34:27 SGT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:27 SGT" name="checkout" data-provider="dataset1" finished-at="2023-09-24T22:34:28 SGT" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wilbert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Checkout@73e9cf30]" started-at="2023-09-24T22:34:28 SGT" name="afterme" finished-at="2023-09-24T22:34:28 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+      </class> <!-- FunctionalTesting.Checkout -->
+      <class name="FunctionalTesting.Filter">
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:28 SGT" name="Base" finished-at="2023-09-24T22:34:29 SGT" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:29 SGT" name="cred" finished-at="2023-09-24T22:34:29 SGT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="DescendingPrice()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:29 SGT" name="DescendingPrice" finished-at="2023-09-24T22:34:29 SGT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DescendingPrice -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:29 SGT" name="afterme" finished-at="2023-09-24T22:34:29 SGT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:29 SGT" name="Base" finished-at="2023-09-24T22:34:30 SGT" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:30 SGT" name="cred" finished-at="2023-09-24T22:34:30 SGT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="ascendingPrice()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:30 SGT" name="ascendingPrice" finished-at="2023-09-24T22:34:31 SGT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ascendingPrice -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:31 SGT" name="afterme" finished-at="2023-09-24T22:34:31 SGT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:31 SGT" name="Base" finished-at="2023-09-24T22:34:32 SGT" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:32 SGT" name="cred" finished-at="2023-09-24T22:34:32 SGT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="sortAtoZ()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:32 SGT" name="sortAtoZ" finished-at="2023-09-24T22:34:32 SGT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAtoZ -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:32 SGT" name="afterme" finished-at="2023-09-24T22:34:32 SGT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+        <test-method is-config="true" signature="Base()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:32 SGT" name="Base" finished-at="2023-09-24T22:34:33 SGT" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method is-config="true" signature="cred()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:33 SGT" name="cred" finished-at="2023-09-24T22:34:33 SGT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cred -->
+        <test-method signature="sortZtoA()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:33 SGT" name="sortZtoA" finished-at="2023-09-24T22:34:33 SGT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortZtoA -->
+        <test-method is-config="true" signature="afterme()[pri:0, instance:FunctionalTesting.Filter@2d52216b]" started-at="2023-09-24T22:34:33 SGT" name="afterme" finished-at="2023-09-24T22:34:34 SGT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterme -->
+      </class> <!-- FunctionalTesting.Filter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

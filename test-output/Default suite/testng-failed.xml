@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FunctionalTesting.AllFunctionSD">
+      <class name="FunctionalTesting.Checkout">
         <methods>
-          <include name="cred"/>
+          <include name="Finish"/>
+          <include name="checkout" invocation-numbers="0 1 2 3 4 5 6"/>
           <include name="afterme"/>
           <include name="Base"/>
-          <include name="AddtoCart"/>
+          <include name="cred"/>
         </methods>
-      </class> <!-- FunctionalTesting.AllFunctionSD -->
+      </class> <!-- FunctionalTesting.Checkout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
